@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Quốc Hưng</h1>
+            <nav>
+                <a href="cv.html">Home</a>
+                <a href="https://github.com/HungNguywn321">Projects</a>
+                <a href="form.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode</button>
+
+    <main>
+        <section class="main-content">
+            <h2>BackEnd Developer</h2>
+            <p>Nguyễn Quốc Hưng</p>
+            <div class="grid-container">
+                <div class="section projects">
+                    <h3>Projects</h3>
+                    <ul>
+                        <li>HTML Only Portfolio</li>
+                        <li>Calculator</li>
+                        <li>Quiz App</li>
+                        <li>Countdown Timer</li>
+                        <li>Product Upcoming Page</li>
+                    </ul>
+                </div>
+
+                <div class="section work-experience">
+                    <h3>Work Experience</h3>
+                    <p><strong>roadmap.sh</strong><br>Solved all the frontend projects<br><a href="https://github.com/HungNguywn321">Visit my Profile</a></p>
+                </div>
+
+                <div class="section open-source">
+                    <h3>OpenSource Work</h3>
+                    <p>Contributed to 4 open-source projects. Made my own projects at School.<br><a href="https://github.com/HungNguywn321">Visit my GitHub Profile</a></p>
+                </div>
+
+                <div class="section education">
+                    <h3>Education</h3>
+                    <p>Graduated with 3.00 out of 4 GPA. Won ITIUYU Hackathon.</p>
+                    <p><strong>Courses I took:</strong></p>
+                    <ul>
+                        <li>Object Oriented Programming</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Web Engineering</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Human Computer Interaction</li>
+                        <li>Database Management Systems</li>
+                        <li>Net-Netric</li>
+                        <li>Discreet Mathematics</li>
+                    </ul>
+                </div>
+
+                <div class="section reviews">
+                    <h3>Reviews from my Teachers</h3>
+                    <div class="reviews-grid">
+                        <div class="review">
+                            <p>"Quốc Hưng always completes his assignments on time."</p>
+                            <p><strong>T.T.Tung</strong><br> Professor</p>
+                        </div>
+                        <div class="review">
+                            <p>"Quốc Hưng is quite talkative in class."</p>
+                            <p><strong>V.L.T.Phương</strong><br> Professor</p>
+                        </div>
+                        <div class="review">
+                            <p>"Sometimes Quốc Hưng is absent in class."</p>
+                            <p><strong>H.V.Y.Sinh</strong><br> Professor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <footer>
+        <p>10/2024</p>
+    </footer>
+
+    <script>
+        // Dark Mode Toggle Script
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
